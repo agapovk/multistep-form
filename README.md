@@ -15,6 +15,7 @@ Users should be able to:
 
 ![desktop layout](./public/screenshot.webp)
 ![mobile layout](./public/mobile-screenshot.webp)
+<img src='./public/mobile-screenshot.webp' width="200" />
 
 ### Link
 
