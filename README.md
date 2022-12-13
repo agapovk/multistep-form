@@ -11,11 +11,13 @@ Users should be able to:
 - View the optimal layout for the interface depending on their device's screen size
 - See hover and focus states for all interactive elements on the page
 
-### Screenshot
+### Desktop
 
 ![desktop layout](./public/screenshot.webp)
-![mobile layout](./public/mobile-screenshot.webp)
-<img src='./public/mobile-screenshot.webp' width="200" />
+
+### Mobile
+
+<img src='./public/mobile-screenshot.webp' width="400" />
 
 ### Link
 
