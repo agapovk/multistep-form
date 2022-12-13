@@ -13,7 +13,8 @@ Users should be able to:
 
 ### Screenshot
 
-![](./public/screenshot.webp)
+![desktop layout](./public/screenshot.webp)
+![mobile layout](./public/mobile-screenshot.webp)
 
 ### Link
 
