@@ -44,12 +44,12 @@ function App() {
 	}
 
 	return (
-		<section className='flex h-screen w-full flex-col md:h-[600px] md:w-[940px] md:flex-row md:gap-4 md:rounded-2xl md:bg-white md:p-4 md:drop-shadow-xl'>
+		<main className='flex h-screen w-full flex-col md:h-[600px] md:w-[940px] md:flex-row md:gap-4 md:rounded-2xl md:bg-white md:p-4 md:drop-shadow-xl'>
 			<aside className='bg-aside-mobile-pattern bg-cover bg-bottom pt-[30px] pb-[105px] md:rounded-xl md:bg-aside-desktop-pattern md:bg-center md:py-10 md:px-8 lg:w-[272px]'>
 				<Sidebar index={currentStepIndex} />
 			</aside>
 
-			<main className='mt-[-73px] flex flex-auto flex-col overflow-y-auto md:mx-auto md:mt-10 md:max-w-[450px]'>
+			<div className='mt-[-73px] flex flex-auto flex-col overflow-y-auto md:mx-auto md:mt-10 md:max-w-[450px]'>
 				{steps[currentStepIndex]}
 
 				{!isLastStep && (
@@ -76,8 +76,8 @@ function App() {
 						)}
 					</div>
 				)}
-			</main>
-		</section>
+			</div>
+		</main>
 	);
 }
 
