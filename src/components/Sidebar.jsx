@@ -17,10 +17,12 @@ function Sidebar({ index }) {
 							}`}>
 							{step.id}
 						</span>
-						<span className=' hidden md:block'>
-							<p className='text-cool-gray'>{step.name.toUpperCase()}</p>
-							<p className='whitespace-nowrap font-medium text-white'>{step.title.toUpperCase()}</p>
-						</span>
+						<div className=' hidden md:block'>
+							<span className='text-cool-gray'>{step.name.toUpperCase()}</span>
+							<span className='whitespace-nowrap font-medium text-white'>
+								{step.title.toUpperCase()}
+							</span>
+						</div>
 					</li>
 				);
 			})}
