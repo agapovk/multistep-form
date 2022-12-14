@@ -10,18 +10,18 @@ function Sidebar({ index }) {
 		<ul className='flex justify-center gap-4 md:flex-col'>
 			{steps.map((step, i) => {
 				return (
-					<div key={step.id} className='flex items-center gap-4'>
-						<li
+					<li key={step.id} className='flex items-center gap-4'>
+						<div
 							className={`flex h-4 w-4 cursor-default items-center justify-center rounded-full border border-white p-5  ${
 								index === i ? 'bg-light-blue text-marine-blue' : 'text-white'
 							}`}>
 							{step.id}
-						</li>
+						</div>
 						<div className=' hidden md:block'>
 							<p className='text-cool-gray'>{step.name.toUpperCase()}</p>
 							<p className='whitespace-nowrap font-medium text-white'>{step.title.toUpperCase()}</p>
 						</div>
-					</div>
+					</li>
 				);
 			})}
 		</ul>
