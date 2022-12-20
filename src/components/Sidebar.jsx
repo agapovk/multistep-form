@@ -11,17 +11,17 @@ function Sidebar({ index }) {
 			{steps.map((step, i) => {
 				return (
 					<li key={step.id} className='flex items-center gap-4'>
-						<span
+						<div
 							className={`flex h-4 w-4 cursor-default items-center justify-center rounded-full border border-white p-5  ${
 								index === i ? 'bg-light-blue text-marine-blue' : 'text-white'
 							}`}>
 							{step.id}
-						</span>
+						</div>
 						<div className=' hidden md:block'>
-							<span className='text-cool-gray'>{step.name.toUpperCase()}</span>
-							<span className='whitespace-nowrap font-medium text-white'>
+							<p className='text-cool-gray'>{step.name.toUpperCase()}</p>
+							<p className='whitespace-nowrap font-medium text-white'>
 								{step.title.toUpperCase()}
-							</span>
+							</p>
 						</div>
 					</li>
 				);
